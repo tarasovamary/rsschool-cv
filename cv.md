@@ -5,7 +5,7 @@
 - **Location:** _Belarus, Brest_
 - **Age:** _27_
 - **E-mail:** _mashka00@inbox.ru_
-- **Dicord:** _rozovyi_poni#4139_
+- **Discord:** _rozovyi_poni#4139_
 
 ## Education
 
@@ -18,8 +18,8 @@ Brest State Technical University, 2012-2017
 
 ## Language
 
-English - Intermediate
-German - Pre-Intermediate
+- English - Intermediate
+- German - Pre-Intermediate
 
 ## Skills
 
