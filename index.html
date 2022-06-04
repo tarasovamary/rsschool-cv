@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+</head>
+<body>
+    <div class="wrapper"> 
+        <header class="header">
+            <img src="./css/profile.jpg" width="200" height="340" alt="Profile Photo">
+            <h1> TARASOVA MARIYA</h1>
+            <h2> Junior Frontend Developer</h2>
+        </header>
+        <main class="main"> 
+            <section class="info">
+                <h3> Info</h3>
+                <ul>
+                    <li>
+                        <img src="./css/icons/icon-telephone.png" width="30" height="30" alt="Icon Phone">
+                        <p> +375(29)504-70-75 </p>
+                    </li>
+                    <li> 
+                        <img src="./css/icons/icon-email.png" width="30" height="30" alt="Icon E-Mail">
+                        <p>mashka00@inbox.ru</p>
+                    </li>
+                    <li> 
+                        <img src="./css/icons/icon-discord.png" width="30" height="30" alt="Icon Discord">
+                        <p>rozovyi_poni#4139</p>
+                    </li>
+                    <li> 
+                        <img src="./css/icons/icon-github.png" width="30" height="30" alt="Icon GitHub">
+                        <a href="https://github.com/tarasovamary"> GitHub </a>
+                    </li>
+                </ul>
+                 </section>
+                 <section class="skills">
+                     <h3> Skills</h3>
+                     <ul>
+                         <li> Focus on the task at hand </li>
+                         <li> Friendliness in a team </li>
+                         <li> Searching for information in English </li>
+                         <li> Flexibility  </li>
+                         <li> Multitasking </li>
+                     </ul>
+                      </section>
+                      <section class="language"> 
+                          <h3> Language</h3>
+                          <ul>
+                              <li> English - Intermediate </li>
+                              <li> German - Pre-Intermediate </li>
+                          </ul>
+                      </section>
+                      <section class="profile">
+                       <div class="description">
+                        <img src="./css/icons/icon-user.png" width="30" height="30" alt="Icon User"> 
+                        <h3> ABOUT MYSELF</h3>
+                        <p>
+                            I have a great interest in web development. 
+                            This is really an opportunity for me to change my job. I try to learn HTML, 
+                            CSS from public resources, read some books and watch videos from previous lectures 
+                            RSSchool on YouTube. And of course a lot of practice. And now i want to study in RSSchool 
+                            and change everything! I'll do my best!
+                        </p>
+                       </div> 
+                      </section>
+                     <section class="education"> 
+                         <img src="./css/icons/icon-education.png" width="30" height="30" alt="Icon Education">
+                         <strong> State Technical University </strong> 
+                         <p> Industrial and Civil Engineering </p>
+                         <p> Years: 2012-2017</p>
+                         <p> Specialization: Industrial and Civil Engineering</p>
+                     </section>
+                     <section class="code-example"> 
+                         <img src="./css/icons/icon-code.png" widht="30" height="30" alt="Icon Code">
+                         <p> Peak array index KATA from CODEWARS: Given an array of ints, return the index 
+                             such that the sum of the elements to the right of that index equals the sum of
+                              the elements to the left of that index. If there is no such index, return -1. 
+                              If there is more than one such index, return the left-most index.</p>
+                              <pre> 
+                                  <code> function peak(arr) {
+
+                                    for (let i = 1; i < arr.length - 1; i++) {
+                                      let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+                                      let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+                                  
+                                      if (leftSum === rightSum) return i;
+                                    }
+                                    return -1;
+                                  }</code>
+                              </pre>
+                     </section>           
+        </main>
+        <footer class="footer">
+            <p> 2022 </p>
+            <img src="./css/icons/icon-rs_school.svg" width="100" height="100" alt="Icon RSSchool">
+
+        </footer>
+    </div>
+    
+</body>
+</html>
