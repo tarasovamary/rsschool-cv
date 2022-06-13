@@ -2,7 +2,7 @@ body {
      background-color: white;
      line-height: 1;
      font-family: Poppins;
-     margin: 0px   
+     margin: 0px; 
 }
 
 .wrapper {
@@ -123,10 +123,14 @@ pre {
      background-color: #f5f5f5
 }
 
+a {
+     text-decoration: none;
+}
+
 footer {
      display: flex;
      align-items: center;
-     justify-content: center;
+     justify-content: space-around;
      background-color: #808080;
      padding: 10px;
 }

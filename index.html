@@ -23,7 +23,7 @@
 
         <div class="two-columns">
             <div class="left-column"> 
-                <main class="main"> 
+                <main> 
                     <section class="info">
                         <h3> Info</h3>
                         <ul>
@@ -38,11 +38,7 @@
                             <li> 
                                 <img src="./css/icons/icon-discord.png" width="30" height="30" alt="Icon Discord">
                                 <p class="text">rozovyi_poni#4139</p>
-                            </li>
-                            <li> 
-                                <img src="./css/icons/icon-github.png" width="30" height="30" alt="Icon GitHub">
-                                <a class="text" href="https://github.com/tarasovamary"> GitHub </a>
-                            </li>
+                            </li>                   
                         </ul>
                         </section>
                         <section class="skills">
@@ -62,6 +58,7 @@
                                     <li> German - Pre-Intermediate </li>
                                 </ul>
                             </section>
+                        </main>
                     </div>
                     <div class="right-column"> 
                         <section class="profile">
@@ -89,7 +86,7 @@
                         </section>
                         <section class="code-example"> 
                             <div class="profile-header">
-                            <img src="./css/icons/icon-code.png" widht="30" height="30" alt="Icon Code">
+                            <img src="./css/icons/icon-code.png" width="30" height="30" alt="Icon Code">
                             <h3> Code example</h3>
                             </div>
                             <p> Peak array index KATA from CODEWARS: Given an array of ints, return the index 
@@ -98,7 +95,7 @@
                                 If there is more than one such index, return the left-most index.</p>
                                 <pre> <code>
 function peak(arr) {
-for (let i = 1; i < arr.length - 1; i++) {
+for (let i = 1; i &lt; arr.length - 1; i++) {
 let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
 let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
 if (leftSum === rightSum) return i;
@@ -107,11 +104,12 @@ if (leftSum === rightSum) return i;
                        } 
                     </code> </pre>
                         </section>           
-            </main>
-        </div>
+             </div>
         </div>
         <footer class="footer">
-            <img src="./css/icons/icon-rs_school.svg" width="100" height="100" alt="Icon RSSchool">
+            <p> <img src="./css/icons/icon-github.png" width="30" height="30" alt="Icon GitHub">
+                <a class="text" href="https://github.com/tarasovamary"> My GitHub </a> </p>
+            <p> <a href="https://rs.school/js/"> <img src="./css/icons/icon-rs_school.svg" width="100" height="100" alt="Icon RSSchool"> </a> </p>
             <p> © 2022 </p>
 
         </footer>
