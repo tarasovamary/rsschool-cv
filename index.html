@@ -10,13 +10,19 @@
 </head>
 <body>
     <div class="wrapper"> 
-        <div class="two-columns"> 
-            <div class="left-column"> 
+         
+            
                 <header class="header">
-                    <img src="./css/profile.jpg" width="200" height="340" alt="Profile Photo" class="photo">
-                    <h1> TARASOVA MARIYA</h1>
-                    <h2> Junior Frontend Developer</h2>
+                    <div class="header-first-column">
+                    <h1 > TARASOVA MARIYA</h1>
+                    <h2 > Junior Frontend Developer</h2>
+                    </div>
+                    <img src="./css/profile.jpg" width="200" height="340" alt="Profile Photo" class="photo header-second-column">
+
                 </header>
+
+        <div class="two-columns">
+            <div class="left-column"> 
                 <main class="main"> 
                     <section class="info">
                         <h3> Info</h3>
@@ -59,9 +65,10 @@
                     </div>
                     <div class="right-column"> 
                         <section class="profile">
-                        <div class="description">
+                        <div class="profile-header">
                             <img src="./css/icons/icon-user.png" width="30" height="30" alt="Icon User"> 
-                            <h3> ABOUT MYSELF</h3>
+                            <h3> About myself</h3>
+                        </div>
                             <p>
                                 I have a great interest in web development. 
                                 This is really an opportunity for me to change my job. I try to learn HTML, 
@@ -69,17 +76,22 @@
                                 RSSchool on YouTube. And of course a lot of practice. And now i want to study in RSSchool 
                                 and change everything! I'll do my best!
                             </p>
-                        </div> 
+                         
                         </section>
                         <section class="education"> 
+                            <div class="profile-header"> 
                             <img src="./css/icons/icon-education.png" width="30" height="30" alt="Icon Education">
-                            <strong> Brest State Technical University </strong> 
-                            <p> Industrial and Civil Engineering </p>
+                            <h3> My education</h3>
+                            </div>
+                            <p> University: Brest State Technical University </p> 
                             <p> Years: 2012-2017</p>
-                            <p> Specialization: Industrial and Civil Engineering</p>
+                            <p> Profession: Industrial and Civil Engineering</p>
                         </section>
                         <section class="code-example"> 
+                            <div class="profile-header">
                             <img src="./css/icons/icon-code.png" widht="30" height="30" alt="Icon Code">
+                            <h3> Code example</h3>
+                            </div>
                             <p> Peak array index KATA from CODEWARS: Given an array of ints, return the index 
                                 such that the sum of the elements to the right of that index equals the sum of
                                 the elements to the left of that index. If there is no such index, return -1. 
@@ -99,8 +111,8 @@ if (leftSum === rightSum) return i;
         </div>
         </div>
         <footer class="footer">
-            <p> 2022 </p>
             <img src="./css/icons/icon-rs_school.svg" width="100" height="100" alt="Icon RSSchool">
+            <p> © 2022 </p>
 
         </footer>
     </div>
