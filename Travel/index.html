@@ -7,14 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="background">
-        <img src="#" class="background__image" alt="Explore the beauty of the World">
         <header class="header">
             <div class="wrapper header_wrapper"> 
+                <!--Главный логотип-->
                 <div class="header header__logo-line"> 
-                    <a href="#" class="logo" Logo></a>
+                    <a href="#" class="logo" Logo> <img src="#" alt="Logo"></a>
                 </div>
                 <nav class="header__navigation">
+                    <!--Навигация сайта-->
                     <ul class="navigation">
                         <li class="navigation__link">How It Works</li>
                         <li class="navigation__link">Plan Your Trip</li>
@@ -30,6 +30,7 @@
         <main>
         <section class="preview">
             <div class="wrapper preview_wrapper"> 
+                <!--Превью сайта-->
                 <div class="preview__content">
                     <h1>Explore the beauty of the World</h1>
                     <p>Receive personalized recommendations for countries, hotels, activities and more</p>
@@ -42,8 +43,8 @@
                 </div>
             </div>  
         </section>
-    </div> 
-
+   
+        <!--Три иконки-->
         <section class="steps">
             <div class=" steps wrapper_steps">
                 <h2 class="steps__title">3 STEPS TO THE PERFECT TRIP</h2>
@@ -76,15 +77,80 @@
             </div>
         </section>
         <section class="destinations">
-            <h2>POPULAR DESTINATIONS</h2>
+            <div class="wrapper">
+                <div class="destinations__content">
+                    <h2 class="destinations__title">POPULAR DESTINATIONS</h2>
+                    <p class="destinations__name">SPAIN</p>
+                    <p class="destinations__name">JAPAN</p>
+                    <p class="destinations__name">USA</p>
+                    <img class="destinations__image" src="#" alt="SPAIN">
+                    <img class="destinations__image" src="#" alt="JAPAN">
+                    <img class="destinations__image" src="#" alt="USA">
+                </div>
+                <div class="slider">
+                    <div class="slider__wrapper">
+                        <div class="slider__item">
+                             <!-- Контент 1 слайда -->
+                        </div>
+                        <div class="slider__item">
+                            <!-- Контент 2 слайда -->
+                       </div>
+                       <div class="slider__item">
+                        <!-- Контент 3 слайда -->
+                        </div>
+                        <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+                        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                    </div>
+                </div>
+                <div class="destination__button">
+                    <img class="icon-arrow" src="#" alt="Find More">
+                    <span class="button button_destination">Find More</span>
+                </div>
+            </div>
             
         </section>
         <section class="stories">
-            <h2>TRAVEL STORIES</h2>
-            
+            <div class="wrapper">
+                <h2>TRAVEL STORIES</h2>
+                <div class="layout-4-row stories__container">
+                    <div class="stories__content">
+                        <h4 class="stories__name">10 Photos of Attractive Thailand</h4>
+                        <p class="stories__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href="#">Read More</a></p>
+                    </div>
+                    <img class="stories__photo" src="#" alt="10 Photos of Attractive Thailand">
+                    <div class="stories__content">
+                        <h4 class="stories__name">Canyonlands National Park, Utah</h4>
+                        <p class="stories__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href="#">Read More</a></p>
+                    </div>
+                    <img class="stories__photo" src="#" alt="Canyonlands National Park, Utah">
+                    <div class="stories__content">
+                        <h4 class="stories__name">I left my heart in the Mountains!</h4>
+                        <p class="stories__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href="#">Read More</a></p>
+                    </div>
+                    <img class="stories__photo" src="#" alt="I left my heart in the Mountains!">
+                    <div class="stories__content">
+                        <h4 class="stories__name">The Longest journey in my life!</h4>
+                        <p class="stories__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href="#">Read More</a></p>
+                    </div>
+                    <img class="stories__photo" src="#" alt="The Longest journey in my life!">
+                </div>
+                <div class="stories__button">
+                    <img class="icon-arrow" src="#" alt="See More">
+                    <span class="button button_stories">See More</span>
+                </div>
+            </div>  
         </section>
         </main>
     <footer class="footer">
+        <div class="wrapper footer__wrapper"></div>
+        <p>All Rights Reserved © Travel Portal</p>
+        <ul class="footer__navigation__links">
+            <!--Навигация для Footer-->
+        <li><a href="#" class="icon-instagram"> <img src="#" alt="Instagram"></a></li>
+        <li><a href="#" class="icon-youtube"> <img src="#" alt="Youtube"></a></li>
+        <li><a href="#" class="icon-twitter"> <img src="#" alt="Twitter"></a></a></li>
+        </ul>
 
     </footer>
 </body>
