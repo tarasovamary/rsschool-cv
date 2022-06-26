@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Aleo";
+    src: url("../fonts/Aleo-Bold.ttf");
+    src: local("Aleo Bold"), local("Aleo-Bold"),
+    url("../fonts/Aleo-Bold.ttf") format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Aleo";
+    src: url("../fonts/Aleo-BoldItalic.ttf");
+    src: local("Aleo Bold Italic"), local("Aleo-Bold-Italic"),
+    url("../fonts/Aleo-BoldItalic.ttf") format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Aleo";
+    src: url("../fonts/Aleo-Italic.ttf");
+    src:local("Aleo Italic"), local("Aleo-Italic"),
+    url("../fonts/Aleo-Italic.ttf") format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Aleo";
+    src: url("../fonts/Aleo-Regular.ttf");
+    src:local("Aleo Regular"), local("Aleo-Regular"),
+    url("../fonts/Aleo-Regular.ttf") format(truetype);
+    font-weight: 700;
+    font-style: normal; 
+}
+@font-face {
+    font-family: "Magra";
+    src: url("../fonts/Magra-Bold.ttf");
+    src:local("Magra Bold"), local("Magra-Bold"),
+    url("../fonts/Magra-Bold.ttf") format(truetype);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "RedHatText";
+    src: url("../fonts/RedHatText-Medium.ttf");
+    src: local("RedHatText Medium"), local("RedHatText-Medium"),
+    url("../fonts/RedHatText-Medium.ttf") format(truetype);
+    font-weight: 500;
+    font-style: normal;
+}
