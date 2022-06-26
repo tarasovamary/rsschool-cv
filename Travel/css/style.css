@@ -1,3 +1,121 @@
 html {
+    font-size: 10px;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 120px;
+}
+
+body {
+    font-size: 2rem;
+    font-family: 'Aleo', serif;
+     
+}
+header {
+    color: white;
+    background-color: rgba(242, 120, 92, 0.7);
+    box-shadow:0px 4px 4px rgba(13, 96, 111, 0.5);
+    padding: 25px 0 24px 0;
+}
+.header__logo-line {
+    font-size: 3.2rem;
+    font-family: 'Magra', bold;
+    line-height: 39px;
+}
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+}
+.navigation__link {
+    font-family: 'RedHatText', medium;
+    list-style: none;
+    padding: 0 42px;
+    cursor: pointer;
+}
+
+.button {
+    font-family: 'RedHatText';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    transition: all .3s;
+}
+
+.button_login {
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+}
+.button_login:hover {
+    background: #094752;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 8rem;
+    line-height: 96px;   
+}
+
+h2 {
+font-size: 4rem;
+color: #F2785C;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
+.preview_wrapper {
+    display: flex;
+    background-image: url(../css/img/desktop_images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
     
+    
+}
+
+.preview__content {
+    
+    height: 765px;
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 24px;
+    
+}
+.tool__title {
+    font-size: 2rem;
+    color: #0D606F;
+}
+
+.destinations__image {
+    width: 800px;
+    height: 800px;
+}
+
+.destinations__name {
+    font-size: 2rem;
+    color: white;
+}
+
+.stories {
+    background-image: url(../css/img/desktop_images/Rectangle\ 33.jpg);
+    color:#0D606F;
+}
+
+.stories__photo {
+    width: 400px;
+    height: 250px;
+}
+.background__transparent {
+    background: rgba(255, 255, 255, 0.7);
 }
