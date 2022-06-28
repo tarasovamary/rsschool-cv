@@ -3,8 +3,8 @@ html {
 }
 .wrapper {
     max-width: 1440px;
-    margin: auto;
-    padding: 0 120px;
+    margin: 0 auto;
+
 }
 
 body {
@@ -12,22 +12,23 @@ body {
     font-family: 'Aleo', serif;
      
 }
-header {
-    color: white;
-    background-color: rgba(242, 120, 92, 0.7);
-    box-shadow:0px 4px 4px rgba(13, 96, 111, 0.5);
-    padding: 25px 0 24px 0;
-}
-.header__logo-line {
-    font-size: 3.2rem;
-    font-family: 'Magra', bold;
-    line-height: 39px;
-}
 .header_wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(242, 120, 92, 0.7);
+    box-shadow:0px 4px 4px rgba(13, 96, 111, 0.5);
+    padding: 25px 0px 24px 0px;
+    color: white;
 }
+
+.header__logo-line {
+    font-size: 3.2rem;
+    font-family: 'Magra', bold;
+    line-height: 39px;
+    padding-left: 120px;
+}
+
 .navigation {
     display: flex;
     font-size: 1.6rem;
@@ -43,63 +44,167 @@ header {
 .button {
     font-family: 'RedHatText';
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 2.1rem;
+    font-weight: 500;  
     color: #FFFFFF;
-    padding: 10px 30px;
     transition: all .3s;
-}
-
-.button_login {
     background: #0D606F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
     border: none;
 }
-.button_login:hover {
+.button:hover {
     background: #094752;
-    cursor: pointer;
+    cursor: pointer;  
 }
-
+.button_login {
+    padding: 10px 30px;
+    line-height: 2.1rem;
+    font-size: 1.6rem;
+    margin-right: 120px;
+}
+.button_preview {
+    padding: 13.5px 32.5px;
+    line-height: 2.28rem;
+    font-size: 2.4rem;
+}
 
 h1 {
     font-size: 8rem;
-    line-height: 96px;   
+    line-height: 96px; 
+    margin: 0;
+
 }
 
 h2 {
-font-size: 4rem;
-color: #F2785C;
+    font-size: 4rem;
+    color: #F2785C;
 }
 
 h4 {
     font-size: 3.5rem;
 }
-.preview_wrapper {
-    display: flex;
-    background-image: url(../css/img/desktop_images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
-    
-    
+.preview {   
+    background: no-repeat center url(../css/img/desktop_images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg); 
+       
 }
 
-.preview__content {
-    
+.preview_wrapper {
+    display: flex;
     height: 765px;
+
+}
+
+.preview__content { 
+    display: flex;
+    flex-direction: column;
+    width: 892px;
+    height: 422px;  
     color: white;
     font-size: 2rem;
+    line-height: 24px; 
+    padding: 32px 0 0 120px;
+     
+}
+
+.preview__content p{
+    margin: 46px 0 33px 0;
     font-style: italic;
-    line-height: 24px;
+}
+
+.preview__search {
+    display: flex;
+    justify-content: space-between;
+    width: 833px;
+    height: 59px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    padding: 18px 18px 18px 0;
+    margin: 0;
+}
+
+.preview__search input {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 29px;
+    
+    float: left;
+    border: 0;
+    background: none;
+    padding: 0 41px;
+    }
+
+.preview__search ::-webkit-input-placeholder {
+    color: #F2785C;
+    }
+
+.preview__search input:focus {
+    outline: 0;
+    }
+
+    .steps__title {
+      text-align: center;
+
+    }
+
+.layout-3-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
     
 }
+.tool {
+    width: 30%;
+}
+
+.tool__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .tool__title {
+    text-align: center;
     font-size: 2rem;
     color: #0D606F;
 }
+.icon {
+    cursor: pointer;
+    display: inline-block;
+}
 
+.icon-square {
+    width: 100px;
+    height: 100px;
+    background: #F2785C;
+    border-radius: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-bicycle {
+    background: no-repeat url("../css/img/desktop_images/bisycle.svg");
+    height: 50px;
+    width: 50px;
+}
+.icon-dates {
+    background: no-repeat url("../css/img/desktop_images/date.svg");
+    height: 52px;
+    width: 52px;
+}
+.icon-plane {
+    background: no-repeat url("../css/img/desktop_images/plane.svg");
+    height: 50px;
+    width: 60px;
+}
+.destinations__title {
+    text-align: center;
+}
 .destinations__image {
-    width: 800px;
-    height: 800px;
+    padding: 0 30px;  
 }
 
 .destinations__name {
@@ -107,7 +212,17 @@ h4 {
     color: white;
 }
 
-.stories {
+.wrapper__destinations {
+    overflow: hidden;
+}
+.destinations__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.stories__background {
     background-image: url(../css/img/desktop_images/Rectangle\ 33.jpg);
     color:#0D606F;
 }
@@ -116,6 +231,8 @@ h4 {
     width: 400px;
     height: 250px;
 }
-.background__transparent {
+
+.stories__container{
+  
     background: rgba(255, 255, 255, 0.7);
 }

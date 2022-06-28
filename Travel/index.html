@@ -13,7 +13,7 @@
         <header class="header">
             <div class="wrapper header_wrapper"> 
                 <!--Главный логотип-->
-                <div class="header header__logo-line"> 
+                <div class="header__logo-line"> 
                     <a href="#" class="logo" Logo> <img src="../Travel/css/img/desktop_images/Logo.svg" alt="Logo"></a>
                     <span> Travel Portal </span>
                 </div>
@@ -38,25 +38,23 @@
                 <div class="preview__content">
                     <h1>Explore the beauty of the World</h1>
                     <p>Receive personalized recommendations for countries, hotels, activities and more</p>
-                    <div class="preview__search">
-                    <input type="text" name="interest" value="What would you like to do?">
-                        <div class="button__search">
-                            <button class="button button_preview">Start Planning</button>
-                        </div> 
-                    </div>
+                    <form class="preview__search">  
+                    <input type="text" placeholder="What would you like to do?" required> 
+                            <button class="button button_preview" type="submit" >Start Planning</button>
+                    </form>
                 </div>
             </div>  
         </section>
    
         <!--Три иконки-->
         <section class="steps">
-            <div class=" steps wrapper_steps">
+            <div class=" wrapper wrapper_steps">
                 <h2 class="steps__title">3 STEPS TO THE PERFECT TRIP</h2>
                     <div class="layout-3-column ">
                         <div class="tool">
                             <div class="tool__icon">
                                 <span class="icon-square"> 
-                                    <span class="icon-bicycle"></span>
+                                    <span class=" icon icon-bicycle"></span>
                                 </span>
                             </div>
                             <p class="tool__title">Tell us what you want to do</p>
@@ -64,7 +62,7 @@
                         <div class="tool">
                             <div class="tool__icon">
                                 <span class="icon-square"> 
-                                    <span class="icon-dates"></span>
+                                    <span class="icon icon-dates"></span>
                                 </span>
                             </div>
                             <p class="tool__title">Share us preferable dates </p>
@@ -72,7 +70,7 @@
                         <div class="tool">
                             <div class="tool__icon">
                                 <span class="icon-square"> 
-                                    <span class="icon-plane"></span>
+                                    <span class="icon icon-plane"></span>
                                 </span>
                             </div>
                             <p class="tool__title">We will give you recommendations</p>
@@ -81,15 +79,19 @@
             </div>
         </section>
         <section class="destinations">
-            <div class="wrapper">
-                <div class="destinations__content">
-                    <h2 class="destinations__title">POPULAR DESTINATIONS</h2>
+            <div class="wrapper wrapper__destinations">
+
+                <h2 class="destinations__title">POPULAR DESTINATIONS</h2>
+
                     <p class="destinations__name">SPAIN</p>
                     <p class="destinations__name">JAPAN</p>
                     <p class="destinations__name">USA</p>
-                    <img class="destinations__image" src="../Travel/css/img/desktop_images/Rectangle 23.jpg" alt="SPAIN">
-                    <img class="destinations__image" src="../Travel/css/img/desktop_images/Rectangle 24.jpg" alt="JAPAN">
-                    <img class="destinations__image" src="../Travel/css/img/desktop_images/Rectangle 25.jpg" alt="USA">
+
+                <div class="destinations__content">
+                    <img class="destinations__image" src="../Travel/css/img/desktop_images/Rectangle 23.jpg" alt="SPAIN" width="800" height="800">
+                    <img class="destinations__image" src="../Travel/css/img/desktop_images/Rectangle 24.jpg" alt="JAPAN" width="800" height="800">
+                    <img class="destinations__image" src="../Travel/css/img/desktop_images/Rectangle 25.jpg" alt="USA" width="800" height="800">
+
                 </div>
                 <div class="slider">
                     <div class="slider__wrapper">
@@ -118,7 +120,8 @@
         <section class="stories">
             <div class="wrapper background__transparent">
                 <h2>TRAVEL STORIES</h2>
-                <div class="layout-4-row stories__container">
+                <div class="stories__background">
+                <div class="stories__container">
                     <div class="stories__content">
                         <h4 class="stories__name">10 Photos of Attractive Thailand</h4>
                         <p class="stories__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <a href="#">Read More</a></p>
@@ -140,6 +143,7 @@
                     </div>
                     <img class="stories__photo" src="../Travel/css/img/desktop_images/Rectangle 31.jpg" alt="The Longest journey in my life!">
                 </div>
+            </div>
                 <div class="stories__button">
                     <img class="icon-arrow" src="#" alt="See More">
                     <span class="button button_stories">See More</span>
